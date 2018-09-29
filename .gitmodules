@@ -1,0 +1,3 @@
+[submodule "TrafficCamera_Darknet_YOLOv3/darknet"]
+	path = TrafficCamera_Darknet_YOLOv3/darknet
+	url = https://github.com/pjreddie/darknet.git
