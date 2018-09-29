@@ -5,7 +5,7 @@ The Unwarped image can be easier to analyze in some cases.
 
 ## Go to [TrafficCamera_Unwarp_Image.ipynb](TrafficCamera_Unwarp_Image.ipynb)
 
-[![png](TrafficCamera_Unwarp_Image/output_13_0.png)](TrafficCamera_Unwarp_Image.ipynb)
+[![png](images/output_13_0.png)](TrafficCamera_Unwarp_Image.ipynb)
 
 ## Imports
 
@@ -45,7 +45,7 @@ plt.imshow(frame)
 plt.show()
 ```
 
-![png](TrafficCamera_Unwarp_Image/output_6_0.png)
+![png](images/output_6_0.png)
 
 ## Define perspective with trapezoid
 
@@ -74,7 +74,7 @@ plt.imshow(frame)
 plt.show()
 ```
 
-![png](TrafficCamera_Unwarp_Image/output_9_0.png)
+![png](images/output_9_0.png)
 
 ## The Unwarp function
 
@@ -113,7 +113,7 @@ plt.imshow(unwarped)
 plt.show()
 ```
 
-![png](TrafficCamera_Unwarp_Image/output_13_0.png)
+![png](images/output_13_0.png)
 
 ## Unwarp all 9184 frames!
 
@@ -161,3 +161,11 @@ ffmpeg -pattern_type glob -i '/tmp/img*.jpg' -c:v libx265 result.mp4
 ## Share Your Results!
 
 Fork this repo and share your results!
+
+### Example result
+
+[![Result](http://img.youtube.com/vi/gdWyQ2Kb3MU/0.jpg)](http://www.youtube.com/watch?v=gdWyQ2Kb3MU)
+
+### Video tutorial
+
+[![Video tutorial](http://img.youtube.com/vi/Ua6CeHCI4Qs/0.jpg)](http://www.youtube.com/watch?v=Ua6CeHCI4Qs)
